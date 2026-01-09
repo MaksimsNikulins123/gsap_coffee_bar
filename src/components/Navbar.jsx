@@ -1,7 +1,8 @@
 import { useGSAP } from "@gsap/react";
-import { navLinks } from "../../constants"
 import gsap from "gsap";
-import { duration } from './../../node_modules/zod/v4/core/regexes';
+
+import { navLinks } from "../../constants"
+
 
 const Navbar = () => {
     useGSAP(() => {

@@ -85,7 +85,7 @@ body {
     }
 
     .heroBackground {
-        @apply absolute bg-no-repeat bg-center bg-size-[1400px_auto] inset-0 size-full bg-[url("/images/heroBackground.png")];
+        @apply absolute inset-0 size-full bg-[url("/images/hero-background.png")] bg-center bg-no-repeat;
     }
 
     #hero {
@@ -95,11 +95,11 @@ body {
             @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
         }
 
-        .left-leaf {
+        .coffee-machine-and-coffee {
             @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3;
         }
 
-        .right-leaf {
+        .coffee-beans-bag {
             @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24;
         }
 
@@ -117,7 +117,7 @@ body {
                     @apply 2xl:text-start text-center;
                 }
 
-                .view-cocktails {
+                .view-coffee {
                     @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
                     p {
