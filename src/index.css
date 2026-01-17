@@ -84,8 +84,11 @@ body {
         }
     }
 
+    .noisy {
+        /* @apply absolute inset-0 size-full bg-[url("/images/noise.png")]; */
+    }
     .heroBackground {
-        @apply absolute inset-0 size-full bg-[url("/images/hero-background.png")] bg-center bg-no-repeat;
+        @apply absolute inset-0 size-full bg-[url("/images/hero-background.png")];
     }
 
     #hero {
