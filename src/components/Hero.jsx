@@ -72,17 +72,17 @@ const Hero = () => {
     return (
         <>
             <section id='hero' className='heroBackground'>
-            {/* <section id='hero' className='noisy'> */}
+                {/* <section id='hero' className='noisy'> */}
                 <h1 className='title'>Espresso</h1>
 
                 <img
                     src='images/coffee-machine-and-coffee.png'
-                    alt='bag-of-fresh-coffee-beans'
+                    alt='offee machine and coffee'
                     className='coffee-machine-and-coffee'
                 />
                 <img
                     src='images/coffee-beans-bag.png'
-                    alt='coffee cup'
+                    alt='coffee beans bag'
                     className='coffee-beans-bag'
                 />
                 <div className='body'>
@@ -113,8 +113,6 @@ const Hero = () => {
                 />
             </div>
         </>
-
-
     )
 }
 
